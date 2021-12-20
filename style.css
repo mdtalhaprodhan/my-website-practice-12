@@ -1,0 +1,125 @@
+.ta{
+    color: mediumturquoise;
+}
+a{
+    text-decoration: none;
+}
+
+
+.ta1{
+    color: rgb(193, 0, 252);
+}
+form{
+    padding: 30px;
+}
+.ta11{
+    background-color: rgb(255, 217, 0);
+    color: rgb(255, 0, 0);
+}
+.tam2, .tam3{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.tam2{
+    background-color: burlywood;
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    
+}
+.lorem{
+    background-color: aquamarine;
+    padding: 50px;
+    border: 15px solid green;
+    margin: 100px;
+}
+.fr{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.lo{
+    background-color: greenyellow;
+}
+.ta{
+    word-spacing: 60px;
+}
+
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .div1{
+    border: 3px solid black;
+    display: flex;
+  }
+
+  .con{
+    display: flex;
+    width: 700px;
+  }
+
+  .con, .ta1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50px;
+  }
+  
+  .con, .ta1:nth-of-type(1) {
+    flex-basis: 150px;
+  }
+  .main{
+              
+    display: grid;
+    display: grid; 
+    grid: auto auto / auto auto auto auto; 
+    grid-gap: 10px; 
+    background-color: green; 
+    padding: 10px;
+    display: flex; 
+}
+.bfg { 
+    background-color: rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 25px 0; 
+    font-size: 30px; 
+    display: flex;
+}
+.div5 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.div5:hover {
+  width: 300px;
+  display: flex;
+}
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  
+  padding: 12px 0;
+  
+  color: white;
+  font-size: 36px;
+  
+}
